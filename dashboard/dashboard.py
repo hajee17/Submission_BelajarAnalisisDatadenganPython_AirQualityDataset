@@ -7,7 +7,8 @@ import plotly.graph_objs as go
 df = pd.read_csv('main_data.csv')
 
 # Konversi kolom 'date' menjadi datetime
-df['date'] = pd.to_datetime(df['date'])
+df = pd.read_csv("https://raw.githubusercontent.com/hajee17/Submission_BelajarAnalisisDatadenganPython_AirQualityDataset/blob/main/dashboard/main_data.csv")
+
 
 # Set page title
 st.set_page_config(page_title='Dashboard Kualitas Udara', layout='wide')
