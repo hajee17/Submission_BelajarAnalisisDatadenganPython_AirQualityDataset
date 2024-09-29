@@ -4,8 +4,7 @@ import plotly.express as px
 import plotly.graph_objs as go
 
 # Load \
-df = pd.read_csv("https://raw.githubusercontent.com/hajee17/Submission_BelajarAnalisisDatadenganPython_AirQualityDataset/blob/main/dashboard/main_data.csv")
-
+df = pd.read_csv("https://raw.githubusercontent.com/hajee17/Submission_BelajarAnalisisDatadenganPython_AirQualityDataset/main/dashboard/main_data.csv")
 # Konversi kolom 'date' menjadi datetime
 df['date'] = pd.to_datetime(df['date'])
 
