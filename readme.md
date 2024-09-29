@@ -1,4 +1,4 @@
-# Proyek Analisis Data Kualitas Udara di Beijing
+## Proyek Analisis Data Kualitas Udara di Beijing
 
 Proyek ini bertujuan untuk menganalisis data kualitas udara di Beijing dari tahun 2013-2017. Data yang digunakan adalah data kualitas udara yang dikumpulkan oleh stasiun pemantauan kualitas udara di Beijing. dan menyelesaikan tugas.
 
@@ -39,7 +39,8 @@ Proyek ini menghasilkan wawasan penting tentang kualitas udara di Beijing, denga
 1. Clone repository ini ke komputer Anda.
 2. Install library yang dibutuhkan dengan menjalankan `pip install -r requirements.txt`.
 3. Jalankan notebook analisis data dengan menjalankan `jupyter notebook` di direktori `notebooks/`.
-4. Jalankan dashboard dengan menjalankan `python dashboard.py` di direktori `dashboard/`.
+4. Buka terminal dan jalankan `cd dashboard` untuk mengakses direktori dashboard
+5. Run Streamlit app di terminal `streamlit run dashboard.py`
 
 ## Hasil Analisis
 
